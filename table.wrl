@@ -1,0 +1,89 @@
+#VRML V2.0 utf8
+
+# Table Example
+
+Transform {
+  translation 0 0 0
+  children [
+    # Table top
+    Transform {
+      translation 0 0.75 0
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.8 0.5 0.3
+            }
+          }
+          geometry Box {
+            size 2 0.1 1
+          }
+        }
+      ]
+    }
+    # Table leg 1
+    Transform {
+      translation -0.9 0.375 -0.45
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.6 0.3 0.2
+            }
+          }
+          geometry Box {
+            size 0.1 0.75 0.1
+          }
+        }
+      ]
+    }
+    # Table leg 2
+    Transform {
+      translation 0.9 0.375 -0.45
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.6 0.3 0.2
+            }
+          }
+          geometry Box {
+            size 0.1 0.75 0.1
+          }
+        }
+      ]
+    }
+    # Table leg 3
+    Transform {
+      translation -0.9 0.375 0.45
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.6 0.3 0.2
+            }
+          }
+          geometry Box {
+            size 0.1 0.75 0.1
+          }
+        }
+      ]
+    }
+    # Table leg 4
+    Transform {
+      translation 0.9 0.375 0.45
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.6 0.3 0.2
+            }
+          }
+          geometry Box {
+            size 0.1 0.75 0.1
+          }
+        }
+      ]
+    }
+  ]
+}
